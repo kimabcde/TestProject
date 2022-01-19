@@ -54,7 +54,7 @@ class Buyer2 { // 고객, 물건을 사는 사람
 	void buy(Product2 p) {
 		if (money < p.price) {
 			System.out.println("잔액이 부족하여 물건을 살수 없습니다.");
-			return;0
+			return;
 		}
 
 		money -= p.price; // 가진 돈에서 구입한 제품의 가격을 뺀다.
