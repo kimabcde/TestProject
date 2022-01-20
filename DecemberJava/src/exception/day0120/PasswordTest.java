@@ -27,7 +27,7 @@ public class PasswordTest {
 		
 		try {
 			pt.setPassword(null);
-			System.out.println(pt.getPassword());
+			System.out.println(pt.getPassword()); // 29번째 줄에서 exception 발생해서 그냥 넘어감
 		} catch (PasswordException e) {
 			System.out.println(e.getMessage());
 		}
