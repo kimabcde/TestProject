@@ -4,12 +4,15 @@ public class Rice extends Food {
 
 	final int price = 2000;
 
-	Rice() {
+	public Rice() {
 		super(2000);
 	}
 
 	@Override
-	public String getName() {
+	public String getName() {	// 우클릭 -> source -> override/implements method메뉴
 		return "밥";
 	}
+	
+	
+	
 }

@@ -11,8 +11,8 @@ public class Food {
 		point += price*0.1;
 	}
 	
-	public String getName() {
-		 return "food_name"; 
+	public String getName() { //문제에서 추상클래스를 만들라고 안했으니까~
+		 return ""; 
 	}
 	
 	
