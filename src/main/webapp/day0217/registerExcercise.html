@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>프런트엔드 개발자 지원서</title>
+</head>
+
+<body>
+	<h1>프런트엔드 개발자 지원서</h1>
+	<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+	<hr>
+	<form method = "get" action="#">
+		<fieldset>
+			<label> 이름 </label>
+			<ul>
+				<li> 이름 <input type="text" id="id" placeholder="공백없이 입력하세요"> </li>
+				<li> 연락처 <input type="text" id="phone"> </li>
+				<li> 성별 <input type="radio" name="sung" value="man"> 남자 
+					 	 <input type="radio" name="sung" value="woman">여자
+				</li>
+				<li> 관심분야 <select name="interest">
+					<option value = "HTML"> HTML </option>
+					<option value = "CSS"> CSS </option>
+					<option value = "Javascript"> Javascript </option>
+					</select> </li>
+			</ul>
+		</fieldset>
+		
+		
+		<fieldset>
+			<label> 지원 분야 </label>
+			<ul>
+				<li> <input type="checkbox" name = "category1" value = "wp"> 웹 퍼블리싱
+				<li> <input type="checkbox" name = "category2" value = "wa"> 웹 애플리케이션 개발
+				<li> <input type="checkbox" name = "category3" value = "wd"> 웹 개발 환경 개선
+			</ul>
+		</fieldset>
+			
+		
+		
+		<fieldset>
+			<label> 지원 동기 </label> <br>
+			<textarea name="donggi" placeholder="본사 지원 동기를 간략하게 입력하세요">
+			</textarea>
+		</fieldset>
+		
+		<input type="submit" value="접수하기">
+		<input type="reset" value="다시쓰기">
+		
+	</form>
+</body>
+</html>

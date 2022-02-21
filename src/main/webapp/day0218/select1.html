@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>selector</title>
+<style>
+/* li {
+	color: blue;
+} */
+/* li.blue{
+	color:blue;
+}
+li.red{
+	color:red;
+}
+.big{
+	font-size: 3em;
+}
+#first{
+	color:red;
+} */
+
+li *{color : orange;}
+#second span{color: purple;}
+
+#second ~ li{ color:teal; }
+
+
+</style>
+</head>
+<body>
+	<ul>
+		<li class="blue big" id="first">text <strong>text</strong> text text text text text text text text</li>
+		<li class="red big" id="second">text <em><span>text </span>text</em> text text text text text text text text</li>
+		<li class="blue" id="third">text text text text text text text text text text</li>
+		<li class="red" id="fourth">text text text text text text text text text text</li>
+	</ul>
+</body>
+</html>
